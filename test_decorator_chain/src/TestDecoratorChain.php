@@ -24,8 +24,8 @@ class TestDecoratorChain extends TestDecoratorCore {
    * {@inheritdoc}
    */
   public function publicFunction() {
-    $this->testDecorator->protectedFunction();
     print "Decorator CHAIN Public\n";
+    $this->testDecorator->protectedFunction();
   }
   
 }

@@ -8,7 +8,7 @@
 /**
  * Main function to test decorator services.
  * 
- * Run via "drush php-eval test_decorator_lower()"
+ * Run via "drush php-eval test_decorator_core()"
  * 
  * @param string $arg
  *   Determined which test to run.

@@ -23,8 +23,8 @@ class TestDecoratorInter implements TestDecoratorInterface {
    * {@inheritdoc}
    */
   public function publicFunction() {
-    $this->testDecorator->publicFunction();
     print "Decorator INTERFACE injection Public\n";
+    $this->testDecorator->publicFunction();
   }
   
   /**

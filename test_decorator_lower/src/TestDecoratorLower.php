@@ -24,8 +24,8 @@ class TestDecoratorLower extends TestDecoratorCore {
    * {@inheritdoc}
    */
   public function publicFunction() {
-    $this->testDecorator->publicFunction();
     print "Decorator LOWER Public\n";
+    $this->testDecorator->publicFunction();
   }
   
 }
