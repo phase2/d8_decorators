@@ -15,7 +15,8 @@ Decorator A Public
 Core Protected
 Core Public
 ```
-which shows that the core service ran first and then test_decorator_a ran.
+which shows that the test_decorator_a ran first followed by the normal
+core service.
 
 ## test_decorator_a
 A simple decorator that extends the core service.
