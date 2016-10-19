@@ -14,7 +14,7 @@ class TestDecoratorHigher extends TestDecoratorCore {
    */
   protected $testDecorator;
 
-  
+
   public function __construct(TestDecoratorInterface $test_decorator) {
     $this->testDecorator = $test_decorator;
     parent::__construct();
@@ -27,5 +27,5 @@ class TestDecoratorHigher extends TestDecoratorCore {
     print "Decorator HIGHER Public\n";
     $this->testDecorator->publicFunction();
   }
-  
+
 }
