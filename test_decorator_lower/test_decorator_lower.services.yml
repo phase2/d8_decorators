@@ -1,0 +1,7 @@
+services:
+  test_decorator.decoratorLower:
+    class: Drupal\test_decorator_lower\TestDecoratorLower
+    public: false
+    decorates: test_decorator.core
+    decoration_priority: 3
+    arguments: ['@test_decorator.decoratorLower.inner']

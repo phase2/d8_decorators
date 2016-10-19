@@ -1,0 +1,7 @@
+services:
+  test_decorator.decoratorProtect:
+    class: Drupal\test_decorator_protect\TestDecoratorProtect
+    public: false
+    decorates: test_decorator.core
+    decoration_priority: 10
+    arguments: ['@test_decorator.decoratorProtect.inner']

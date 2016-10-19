@@ -1,0 +1,7 @@
+name: Test DecoratorA
+type: module
+description: 'Single Decorator.'
+package: Development
+core: 8.x
+dependencies:
+  - test_decorator_core

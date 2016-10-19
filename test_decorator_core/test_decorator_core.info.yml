@@ -1,0 +1,5 @@
+name: Test Decorator Core
+type: module
+description: 'Test how service decorators work. Core service.'
+package: Development
+core: 8.x

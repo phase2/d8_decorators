@@ -1,0 +1,7 @@
+name: Test Decorator Inter
+type: module
+description: 'Test decorator with object interface instead of extend.'
+package: Development
+core: 8.x
+dependencies:
+  - test_decorator_core

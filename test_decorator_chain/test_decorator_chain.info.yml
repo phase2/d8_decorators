@@ -1,0 +1,7 @@
+name: Test Decorator Chain
+type: module
+description: 'A decorator that chains onto another.'
+package: Development
+core: 8.x
+dependencies:
+  - test_decorator_core

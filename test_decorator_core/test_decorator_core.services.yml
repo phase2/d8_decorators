@@ -1,0 +1,5 @@
+services:
+  test_decorator.core:
+    class: Drupal\test_decorator_core\TestDecoratorCore
+    arguments: []
+    

@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Main hooks for Test Decorator module.
+ */
+
+/**
+ * Main function to test decorator services.
+ * 
+ * Run via "drush php-eval test_decorator_lower()"
+ * 
+ * @param string $arg
+ *   Determined which test to run.
+ */
+function test_decorator_core() {
+  $service = \Drupal::service('test_decorator.core');
+  return $service->runService();
+}

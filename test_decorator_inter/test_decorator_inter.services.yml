@@ -1,0 +1,7 @@
+services:
+  test_decorator.decoratorInter:
+    class: Drupal\test_decorator_inter\TestDecoratorInter
+    public: false
+    decorates: test_decorator.core
+    decoration_priority: 4
+    arguments: ['@test_decorator.decoratorInter.inner']

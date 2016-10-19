@@ -1,0 +1,7 @@
+name: Test Decorator Protect
+type: module
+description: 'Override protected method via decorator.'
+package: Development
+core: 8.x
+dependencies:
+  - test_decorator_core

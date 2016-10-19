@@ -1,0 +1,8 @@
+services:
+  test_decorator.decoratorChain:
+    class: Drupal\test_decorator_chain\TestDecoratorChain
+    public: false
+    decorates: test_decorator.core
+    decoration_priority: 3
+    arguments: ['@test_decorator.decoratorChain.inner']
+

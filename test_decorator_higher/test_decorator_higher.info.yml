@@ -1,0 +1,7 @@
+name: Test Decorator Higher
+type: module
+description: 'Decorator with higher priority.'
+package: Development
+core: 8.x
+dependencies:
+  - test_decorator_core
