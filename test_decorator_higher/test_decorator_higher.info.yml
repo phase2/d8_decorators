@@ -3,5 +3,6 @@ type: module
 description: 'Decorator with higher priority.'
 package: Development
 core: 8.x
+core_version_requirement: ^8 || ^9
 dependencies:
   - test_decorator_core
